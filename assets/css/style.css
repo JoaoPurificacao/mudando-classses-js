@@ -22,8 +22,12 @@
     background-color: #ff0000;
 }
 
-.gradiente{
+.gradiente1{
     background-image: linear-gradient(to right top, #000000, #281917, #452d1e, #584823, #5c6830, #48764a, #2c836b, #008d8e, #0082ab, #0071c7, #0054cb, #8300a8);
+}
+
+.gradiente2{
+    background-image: linear-gradient(to right bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
 }
 
 .roxo{
