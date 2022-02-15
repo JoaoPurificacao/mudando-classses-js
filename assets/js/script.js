@@ -6,8 +6,12 @@ let ChangeBackground = () => {
     let select = document.getElementById("Background");
     let colorValue = select[select.selectedIndex].value;
 
+    //console.log(mainClass[1]);
+    //console.log(colorValue);
+
+    mainClass[1] = colorValue
+
     console.log(mainClass);
-    console.log(colorValue);
 } 
 
 button.addEventListener("click",ChangeBackground);
